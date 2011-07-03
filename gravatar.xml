@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="user">
+	<name>plg_user_gravatar</name>
+	<author>Rouven Weßling</author>
+	<creationDate>4 July 2011</creationDate>
+	<copyright>(C) 2011 Rouven Weßling. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>me@rouvenwessling.de</authorEmail>
+	<authorUrl>www.rouvenwessling.de</authorUrl>
+	<version>1.0</version>
+	<description>PLG_USER_GRAVATAR_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="gravatar">gravatar.php</filename>
+		<filename>index.html</filename>
+		<folder>forms</folder>
+		<folder>fields</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_user_gravatar.ini</language>
+		<language tag="en-GB">language/en-GB.plg_user_gravatar.sys.ini</language>
+	</languages>
+</extension>

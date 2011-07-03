@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="gravatar">
+		<fieldset name="profile"
+			label="PLG_USER_GRAVATAR_SLIDER_LABEL"
+		>
+			<field
+				name="avatar"
+				type="gravatar"
+				label="PLG_USER_GRAVATAR_FIELD_GRAVATAR_LABEL"
+			/>
+		</fieldset>
+	</fields>
+</form>
