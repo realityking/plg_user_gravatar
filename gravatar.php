@@ -16,6 +16,8 @@ jimport('joomla.environment.browser');
  */
 class plgUserGravatar extends JPlugin
 {
+	private static $forms = array('com_users.profile', 'com_users.user', 'com_admin.profile')
+	
 	/**
 	 * Constructor
 	 *
@@ -41,7 +43,7 @@ class plgUserGravatar extends JPlugin
 	function onContentPrepareData($context, $data)
 	{
 		// Check we are manipulating a valid form.
-		if (!in_array($context, array('com_users.profile', 'com_users.user', 'com_admin.profile'))) {
+		if (!in_array($context, self::$forms)) {
 			return true;
 		}
 
@@ -84,7 +86,7 @@ class plgUserGravatar extends JPlugin
 		}
 
 		// Check we are manipulating a valid form.
-		if (!in_array($form->getName(), array('com_admin.profile', 'com_users.user', 'com_users.profile'))) {
+		if (!in_array($form->getName(), self::$forms)) {
 			return true;
 		}
 
