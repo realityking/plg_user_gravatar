@@ -16,7 +16,7 @@ jimport('joomla.environment.browser');
  */
 class plgUserGravatar extends JPlugin
 {
-	private static $forms = array('com_users.profile', 'com_users.user', 'com_admin.profile')
+	private static $forms = array('com_users.profile', 'com_users.user', 'com_admin.profile');
 	
 	/**
 	 * Constructor
