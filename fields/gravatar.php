@@ -7,7 +7,6 @@
 // No direct access.
 defined('_JEXEC') or die;
 
-jimport('joomla.form.formfield');
 jimport('joomla.environment.browser');
 
 /**

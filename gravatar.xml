@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.6" type="plugin" group="user">
+<extension version="2.5" type="plugin" group="user">
 	<name>plg_user_gravatar</name>
 	<author>Rouven Weßling</author>
 	<creationDate>4 July 2011</creationDate>
